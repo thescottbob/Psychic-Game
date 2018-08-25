@@ -19,8 +19,8 @@ function updateguessesRemaining() {
     document.querySelector('#guessesRemaining').innerHTML = "Guesses Remaining: " + guessesRemaining;
 };
 
-function updateLetterToGuess() {
-    this.letterToGuess = this.computerChoices[Math.floor(Math.random() * this.computerChoices.length)];
+function updateLetterToGuess {
+    this.letterToGuess = this.computerOptions[Math.floor(Math.random() * this.computerOptions.length)];
 };
 
 function updateGuesses() {
